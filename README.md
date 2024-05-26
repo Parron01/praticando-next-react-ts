@@ -8,6 +8,7 @@ A fim de conhecimento também, está sendo utilizado `SASS` para estilização d
 ### Ferramentas Utilizadas
 `Stripe`
 Responsável pelo processo de pagamentos online pelo usuário, possibilitando formas de pagamento de maneira segura e eficiente.
+Consumo da API do `Stripe` foram criadas utilizando a ideia de `Server Side Rendering(SSR)`.
 
 `FaunaDB`
 Banco de dados distribuído para aplicações **ServerLess**, uma ótima opção para a aplicação em questão.
