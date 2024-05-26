@@ -8,7 +8,6 @@ A fim de conhecimento também, está sendo utilizado `SASS` para estilização d
 ### Ferramentas Utilizadas
 `Stripe`
 Responsável pelo processo de pagamentos online pelo usuário, possibilitando formas de pagamento de maneira segura e eficiente.
-Consumo da API do `Stripe` foram criadas utilizando a ideia de `Server Side Rendering(SSR)`.
 
 `FaunaDB`
 Banco de dados distribuído para aplicações **ServerLess**, uma ótima opção para a aplicação em questão.
@@ -16,9 +15,12 @@ Banco de dados distribuído para aplicações **ServerLess**, uma ótima opção
 `Prismic CMS`
 Sistema para gerenciamento de conteúdo para a questão de disponibilização dos posts oferecidos pela aplicação ao usuário.
 
+### Autenticação
+Autenticação realizada através do GitHub, utilizando conceitos de `API Routes` no Next e `Next-Auth` para realizar essa integração.
 
 <DESCONSIDERAR>Para **gerenciamento de estado global** foi utilizado `Context API` por ser uma aplicação menor e não necessitar de ferramentas como `Redux`.
 
+Consumo de APIs do `Stripe` foram criadas utilizando a ideia de `Server Side Rendering(SSR)`. Static Site Generation(SSG)
 
 
 ### `yarn install`
