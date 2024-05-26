@@ -10,7 +10,7 @@ A fim de conhecimento também, está sendo utilizado `SASS` para estilização d
 Responsável pelo processo de pagamentos online pelo usuário, possibilitando formas de pagamento de maneira segura e eficiente.
 
 `FaunaDB`
-Banco de dados distribuído para aplicações **ServerLess**, uma ótima opção para a aplicação em questão.
+Banco de dados distribuído para aplicações **ServerLess**, por não precisar manter uma conexão ativa com um banco de dados para realizar as operações, uma ótima opção para a aplicação em questão.
 
 `Prismic CMS`
 Sistema para gerenciamento de conteúdo para a questão de disponibilização dos posts oferecidos pela aplicação ao usuário.
