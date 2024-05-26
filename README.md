@@ -20,8 +20,6 @@ Autenticação realizada através do GitHub, utilizando conceitos de `API Routes
 
 <DESCONSIDERAR>Para **gerenciamento de estado global** foi utilizado `Context API` por ser uma aplicação menor e não necessitar de ferramentas como `Redux`.
 
-Consumo de APIs do `Stripe` foram criadas utilizando a ideia de `Server Side Rendering(SSR)`. Static Site Generation(SSG)
-
 
 ### `yarn install`
 Após fazer download da aplicação.\
@@ -35,3 +33,6 @@ Que pode ser acessada => [http://localhost:3000](http://localhost:3000) no seu b
 Para essa Aplicação funcionar você precisará de: \
 `STRIPE_API_KEY` => Adiquirida ao realizar cadastro no Stripe, ir até a aba **Desenvolvedores** e depois **Chaves de API** e utilizar a sua **Chave Secreta**.\
 `GITHUB_CLIENT_ID` e `GITHUB_CLIENT_SECRET` => Ambas informações podem ser adquiridas no site do GitHub, em **Settings**, **Developer Settings** e **OAuth Apps** aonde você deve criar um novo para essa aplicação e retirar essas informações de lá.\
+`STRIPE_SUCESS_URL` => Sua **URL** para caso o pagamento através do Stripe tenha sido um **sucesso**.\
+`STRIPE_CANCEL_URL` => Sua **URL** para caso o pagamento através do Stripe tenha sido **cancelado** ou tenha tido algum erro.\
+`FAUNADB_KEY` => Seria a sua **Database Key** do banco de dados Fauna DB. Podendo acessar no seu database na opção **security** acessando através do **DashBoard V4**.\
