@@ -32,6 +32,6 @@ Rode esse comando para iniciar a aplicação.\
 Que pode ser acessada => [http://localhost:3000](http://localhost:3000) no seu browser.
 
 ### Variáveis Ambiente
-Para essa Aplicação funcionar você precisará de 
-`STRIPE_API_KEY` => Adiquirida ao realizar cadastro no Stripe, ir até a aba **Desenvolvedores** e depois **Chaves de API** e utilizar a sua **Chave Secreta**.
-`GITHUB_CLIENT_ID` e `GITHUB_CLIENT_SECRET` => Ambas informações podem ser adquiridas no site do GitHub, em **Settings**, **Developer Settings** e **OAuth Apps** aonde você deve criar um novo para essa aplicação e retirar essas informações de lá.
+Para essa Aplicação funcionar você precisará de: \
+`STRIPE_API_KEY` => Adiquirida ao realizar cadastro no Stripe, ir até a aba **Desenvolvedores** e depois **Chaves de API** e utilizar a sua **Chave Secreta**.\
+`GITHUB_CLIENT_ID` e `GITHUB_CLIENT_SECRET` => Ambas informações podem ser adquiridas no site do GitHub, em **Settings**, **Developer Settings** e **OAuth Apps** aonde você deve criar um novo para essa aplicação e retirar essas informações de lá.\
