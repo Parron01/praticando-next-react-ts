@@ -26,11 +26,12 @@ Cadastre-se no FaunaDB, e usando o dashboard V4 deles, crie `Collections` => use
 Cadastre-se no Stripe, cadastre um produto de valor 9.90, que seria a assinatura do **News** e resgate as chaves de Api.
 ### `stripe webhooks`
 Para que o stripe retorne informações sobre o pagamento para nossa aplicação, é necessário realizar uma conexão por webhooks, e para isso, é necessário uma configuração.\
-Recomendo instalação do `scoop`, para auxiliar na instalação da `stripe CLI` => [https://scoop.sh/].\
-Após isso siga o passo a passo da instalação da CLI no site a seguir, na aba de instalação com `scoop` => [https://docs.stripe.com/stripe-cli].\
+Recomendo instalação do `scoop`, para auxiliar na instalação da `stripe CLI` => https://scoop.sh/.\
+Após isso siga o passo a passo da instalação da CLI no site a seguir, na aba de instalação com `scoop` => https://docs.stripe.com/stripe-cli.\
 Após fazer login na Stripe CLI:\
 `Execute` => stripe listen --forward-to localhost:3000/api/webhooks\
-Assim você receberá um WebHook Secret para usar na variável ambiente STRIPE_WEBHOOK_SECRET.
+Assim você receberá um WebHook Secret para usar na variável ambiente STRIPE_WEBHOOK_SECRET.\
+`A conexão através de webhooks precisa estar ativa para que a aplicação funcione devidamente.`
 
 
 ### `yarn install`
